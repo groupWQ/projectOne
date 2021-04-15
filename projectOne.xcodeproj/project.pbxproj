@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D49EE5B0FD5C8BEF1AC1E02A /* libPods-projectOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C4705D8C5823761706AE93 /* libPods-projectOne.a */; };
 		E09226492627D0B700ED244B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09226482627D0B700ED244B /* AppDelegate.m */; };
 		E092264C2627D0B700ED244B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E092264B2627D0B700ED244B /* SceneDelegate.m */; };
 		E092264F2627D0B800ED244B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E092264E2627D0B800ED244B /* ViewController.m */; };
@@ -14,9 +15,13 @@
 		E09226542627D0B800ED244B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09226532627D0B800ED244B /* Assets.xcassets */; };
 		E09226572627D0B800ED244B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09226552627D0B800ED244B /* LaunchScreen.storyboard */; };
 		E092265A2627D0B800ED244B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09226592627D0B800ED244B /* main.m */; };
+		E09226682627EA3D00ED244B /* Target_One.m in Sources */ = {isa = PBXBuildFile; fileRef = E09226672627EA3D00ED244B /* Target_One.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35C4705D8C5823761706AE93 /* libPods-projectOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-projectOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE1E5FE59F3571D54479DC /* Pods-projectOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectOne.debug.xcconfig"; path = "Target Support Files/Pods-projectOne/Pods-projectOne.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE9256F3D1B8606E9205F94 /* Pods-projectOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectOne.release.xcconfig"; path = "Target Support Files/Pods-projectOne/Pods-projectOne.release.xcconfig"; sourceTree = "<group>"; };
 		E09226442627D0B700ED244B /* projectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09226472627D0B700ED244B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E09226482627D0B700ED244B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +34,8 @@
 		E09226562627D0B800ED244B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09226582627D0B800ED244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E09226592627D0B800ED244B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09226662627EA3D00ED244B /* Target_One.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_One.h; sourceTree = "<group>"; };
+		E09226672627EA3D00ED244B /* Target_One.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_One.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49EE5B0FD5C8BEF1AC1E02A /* libPods-projectOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57919C85C8618B0FFF2B6F2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C4705D8C5823761706AE93 /* libPods-projectOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6065A89AACD145A821BDDC67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CCE1E5FE59F3571D54479DC /* Pods-projectOne.debug.xcconfig */,
+				DDE9256F3D1B8606E9205F94 /* Pods-projectOne.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E092263B2627D0B700ED244B = {
 			isa = PBXGroup;
 			children = (
 				E09226462627D0B700ED244B /* projectOne */,
 				E09226452627D0B700ED244B /* Products */,
+				6065A89AACD145A821BDDC67 /* Pods */,
+				57919C85C8618B0FFF2B6F2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +94,8 @@
 				E092264B2627D0B700ED244B /* SceneDelegate.m */,
 				E092264D2627D0B700ED244B /* ViewController.h */,
 				E092264E2627D0B800ED244B /* ViewController.m */,
+				E09226662627EA3D00ED244B /* Target_One.h */,
+				E09226672627EA3D00ED244B /* Target_One.m */,
 				E09226502627D0B800ED244B /* Main.storyboard */,
 				E09226532627D0B800ED244B /* Assets.xcassets */,
 				E09226552627D0B800ED244B /* LaunchScreen.storyboard */,
@@ -83,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E092265D2627D0B800ED244B /* Build configuration list for PBXNativeTarget "projectOne" */;
 			buildPhases = (
+				E612F909E8C3FF197FDDB645 /* [CP] Check Pods Manifest.lock */,
 				E09226402627D0B700ED244B /* Sources */,
 				E09226412627D0B700ED244B /* Frameworks */,
 				E09226422627D0B700ED244B /* Resources */,
@@ -140,11 +170,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E612F909E8C3FF197FDDB645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projectOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E09226402627D0B700ED244B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09226682627EA3D00ED244B /* Target_One.m in Sources */,
 				E092264F2627D0B800ED244B /* ViewController.m in Sources */,
 				E09226492627D0B700ED244B /* AppDelegate.m in Sources */,
 				E092265A2627D0B800ED244B /* main.m in Sources */,
@@ -288,6 +344,7 @@
 		};
 		E092265E2627D0B800ED244B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCE1E5FE59F3571D54479DC /* Pods-projectOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +362,7 @@
 		};
 		E092265F2627D0B800ED244B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE9256F3D1B8606E9205F94 /* Pods-projectOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

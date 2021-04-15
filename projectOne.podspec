@@ -2,17 +2,17 @@ Pod::Spec.new do |s|
 
   s.name         = "projectOne"
   s.version      = "1.0.0"
-  s.summary      = "projectOne."
+  s.summary      = "一个测试"
 
   s.description  = <<-DESC
-                    this is projectOne
+                    这是一个简单的测试哈哈哈
                    DESC
 
   s.homepage     = "https://github.com/groupWQ/projectOne"
 
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "cctomato" => "cctomato@outlook.com" }
+  s.author             = { "dizhencaho" => "dizhenchao@126.com" }
 
   s.platform     = :ios, "8.0"
 
