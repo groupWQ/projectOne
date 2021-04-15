@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/groupWQ/projectOne.git", :tag => s.version }
 
-  s.source_files  = "projectOne/projectOne/**/*.{h,m}"
+  s.source_files  = "projectOne/projectOne/Classes/**/*.{h,m}"
 
   s.requires_arc = true
 
