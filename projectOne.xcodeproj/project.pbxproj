@@ -119,18 +119,42 @@
 		E09226992628344100ED244B /* projectOne */ = {
 			isa = PBXGroup;
 			children = (
+				E09226AE2628361B00ED244B /* model */,
+				E09226AD2628361000ED244B /* controller */,
+				E09226AC262835FB00ED244B /* action */,
+			);
+			path = projectOne;
+			sourceTree = "<group>";
+		};
+		E09226AC262835FB00ED244B /* action */ = {
+			isa = PBXGroup;
+			children = (
 				E092269A2628344100ED244B /* Target_One.h */,
 				E092269B2628344100ED244B /* Target_One.m */,
+			);
+			path = action;
+			sourceTree = "<group>";
+		};
+		E09226AD2628361000ED244B /* controller */ = {
+			isa = PBXGroup;
+			children = (
 				E092269F2628348B00ED244B /* AccountLoginViewController.h */,
 				E092269E2628348B00ED244B /* AccountLoginViewController.m */,
 				E09226A12628348B00ED244B /* AccountRegisterViewController.h */,
 				E09226A02628348B00ED244B /* AccountRegisterViewController.m */,
 				E09226A22628348B00ED244B /* AccountUserViewController.h */,
 				E09226A32628348B00ED244B /* AccountUserViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E09226AE2628361B00ED244B /* model */ = {
+			isa = PBXGroup;
+			children = (
 				E09226A82628349200ED244B /* AccountUserService.h */,
 				E09226A92628349200ED244B /* AccountUserService.m */,
 			);
-			path = projectOne;
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
