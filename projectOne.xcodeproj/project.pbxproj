@@ -119,7 +119,7 @@
 		E09226992628344100ED244B /* projectOne */ = {
 			isa = PBXGroup;
 			children = (
-				E09226B026283C3C00ED244B /* Classess */,
+				E09226B026283C3C00ED244B /* Classes */,
 			);
 			path = projectOne;
 			sourceTree = "<group>";
@@ -155,14 +155,14 @@
 			path = model;
 			sourceTree = "<group>";
 		};
-		E09226B026283C3C00ED244B /* Classess */ = {
+		E09226B026283C3C00ED244B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				E09226AE2628361B00ED244B /* model */,
 				E09226AD2628361000ED244B /* controller */,
 				E09226AC262835FB00ED244B /* action */,
 			);
-			path = Classess;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
